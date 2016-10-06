@@ -13,6 +13,7 @@ else{
     image_blend = c_red;
 }
 if(mouse_check_button_pressed(mb_left) and alarm[0] <= 0 and canPlace){
+    with(snap) instance_destroy();
     state = scr_Obstacle_Wait;
     active = true;
 }
