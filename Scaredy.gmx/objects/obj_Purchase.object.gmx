@@ -48,13 +48,16 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(place_meeting(x, y, obj_Obstacle)){
-    with(instance_place(x, y, obj_Obstacle)) instance_destroy();
+            <string>if (var_pause = 0)
+{
+    if(place_meeting(x, y, obj_Obstacle)){
+        with(instance_place(x, y, obj_Obstacle)) instance_destroy();
+    }
+    obstacle = instance_create(mouse_x, mouse_y, type);
+    obstacle.state = scr_Obstacle_Placement;
+    obstacle.alarm[0] = 1;
+    obstacle.active = false;
 }
-obstacle = instance_create(mouse_x, mouse_y, type);
-obstacle.state = scr_Obstacle_Placement;
-obstacle.alarm[0] = 1;
-obstacle.active = false;
 </string>
           </argument>
         </arguments>

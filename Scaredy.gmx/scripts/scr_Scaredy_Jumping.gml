@@ -8,6 +8,7 @@ if(alarm[1] > 0){
     if(place_meeting(x + (move_speed * facing), y, obj_Floor)){
         while(!place_meeting(x + facing, y, obj_Floor)){
             x += sign(facing);
+        audio_play_sound(snd_jump, 10, false);
         }
     }
     else{
