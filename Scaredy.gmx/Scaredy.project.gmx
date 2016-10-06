@@ -12,6 +12,14 @@
     <sprite>sprites\spr_Floor</sprite>
     <sprite>sprites\spr_640960</sprite>
     <sprite>sprites\spr_Purchase</sprite>
+    <sprites name="scarry objects">
+      <sprite>sprites\spr_jake_in_box</sprite>
+    </sprites>
+    <sprites name="menu">
+      <sprite>sprites\spr_title</sprite>
+      <sprite>sprites\spr_new</sprite>
+      <sprite>sprites\spr_exit</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -31,8 +39,15 @@
     <object>objects\obj_64960</object>
     <object>objects\obj_Obstacle</object>
     <object>objects\obj_Purchase</object>
+    <objects name="menu">
+      <object>objects\obj_sm</object>
+      <object>objects\obj_new_game</object>
+      <object>objects\obj_exit</object>
+    </objects>
+    <object>objects\obj_mouse</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_st_menu</room>
     <room>rooms\rm_Test</room>
   </rooms>
   <constants number="2">
