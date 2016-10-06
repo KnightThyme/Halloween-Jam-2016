@@ -21,7 +21,12 @@
       <sprite>sprites\spr_exit</sprite>
     </sprites>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <backgrounds name="tiles">
+      <background>background\ts_blank</background>
+      <background>background\ts_walls</background>
+    </backgrounds>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_Scaredy_Walk.gml</script>
@@ -49,6 +54,7 @@
   <rooms name="rooms">
     <room>rooms\rm_st_menu</room>
     <room>rooms\rm_Test</room>
+    <room>rooms\rm_looks</room>
   </rooms>
   <constants number="2">
     <constant name="MOVING_LEFT">-1</constant>
