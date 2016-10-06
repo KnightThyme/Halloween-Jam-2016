@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>type = obj_RunAwayScare;
+canPurchase = true;
 </string>
           </argument>
         </arguments>
@@ -48,8 +49,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (var_pause = 0)
-{
+            <string>if(canPurchase){
     if(place_meeting(x, y, obj_Obstacle)){
         with(instance_place(x, y, obj_Obstacle)) instance_destroy();
     }

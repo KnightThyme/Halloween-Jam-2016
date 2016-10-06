@@ -26,6 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>state = scr_Obstacle_Wait;
+snap = noone;
+canPlace = false;
 </string>
           </argument>
         </arguments>

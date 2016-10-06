@@ -24,6 +24,8 @@
       <sprite>sprites\spr_exit</sprite>
     </sprites>
     <sprite>sprites\spr_spooked_to_death</sprite>
+    <sprite>sprites\spr_Snap</sprite>
+    <sprite>sprites\spr_Start</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="tiles">
@@ -35,10 +37,12 @@
   <scripts name="scripts">
     <script>scripts\scr_Scaredy_Walk.gml</script>
     <script>scripts\scr_Scaredy_Running.gml</script>
+    <script>scripts\scr_Scaredy_Death.gml</script>
     <script>scripts\scr_Detect_Scares.gml</script>
     <script>scripts\scr_Scaredy_Jumping.gml</script>
     <script>scripts\scr_Obstacle_Placement.gml</script>
     <script>scripts\scr_Obstacle_Wait.gml</script>
+    <script>scripts\scr_Scaredy_Pause.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_Scared</object>
@@ -55,6 +59,8 @@
     </objects>
     <object>objects\obj_mouse</object>
     <object>objects\obj_room_restart</object>
+    <object>objects\obj_Snap</object>
+    <object>objects\obj_Start</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_st_menu</room>

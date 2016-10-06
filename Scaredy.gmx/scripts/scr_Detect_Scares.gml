@@ -2,7 +2,7 @@
 if(place_meeting(x + move_speed * facing, y, obj_Obstacle)){
     obstacle = instance_place(x + move_speed * facing, y, obj_Obstacle);
 }
-if(obstacle != noone){
+if(obstacle != noone and obstacle.object_index != obj_Floor){
     if(obstacle.active == true){
         switch(obstacle.object_index){
             case obj_RunAwayScare:
