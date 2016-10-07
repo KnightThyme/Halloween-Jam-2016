@@ -30,11 +30,10 @@ is_afraid = false;
 move_speed = 2;
 scared_move_speed = 5;
 fall_speed = 5;
-state = scr_Scaredy_Walk;
+state = scr_Scaredy_Pause;
 alarm[1] = -1;
 fright = 0;
 obstacle = noone;
-global.var_pause = 0;
 </string>
           </argument>
         </arguments>
@@ -126,13 +125,7 @@ script_execute(state);
             <string>///Fright too full lose condition
 if(fright &gt; 100){
     instance_create( 512, 384, obj_room_restart);
-    var_pause = 1;
-    if (mouse_check_button_released(mb_left)){
-        room_restart();
-        with(obj_room_restart){
-            instance_destroy();
-        }
-    }
+    state = scr_Scaredy_Death;
 }
 </string>
           </argument>
@@ -156,7 +149,8 @@ if(fright &gt; 100){
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_healthbar(32,704, 160, 736, fright, c_black, c_green, c_red, 0, true, true);
+            <string>///Draw Fright Meter
+draw_healthbar(32,704, 160, 736, fright, c_black, c_green, c_red, 0, true, true);
 </string>
           </argument>
         </arguments>
