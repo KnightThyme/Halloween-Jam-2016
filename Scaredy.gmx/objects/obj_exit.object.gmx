@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>image_speed = 0;
 image_index = 0;
+var_mouse_in = 0;
 </string>
           </argument>
         </arguments>
@@ -52,6 +53,11 @@ image_index = 0;
             <string>if collision_rectangle(self.x, self.y, self.x + 416, self.y + 128, obj_mouse, true, true)
 {
     image_index = 1;
+    if (var_mouse_in = 0)
+    {
+        audio_play_sound(snd_select, 10, false);
+    }
+    var_mouse_in = 1;
     if (mouse_check_button_pressed(mb_left))
     {
         image_index = 2;
@@ -59,6 +65,7 @@ image_index = 0;
     }
 }else{
     image_index = 0;
+    var_mouse_in = 0;
 }
 </string>
           </argument>
