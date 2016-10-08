@@ -29,6 +29,8 @@
     <sprite>sprites\spr_Start</sprite>
     <sprite>sprites\spr_rm_chose</sprite>
     <sprite>sprites\spr_punkin</sprite>
+    <sprite>sprites\spr_stairway</sprite>
+    <sprite>sprites\spr_exit_level</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="tiles">
@@ -55,8 +57,6 @@
   </fonts>
   <objects name="objects">
     <object>objects\obj_Scared</object>
-    <object>objects\obj_RunAwayScare</object>
-    <object>objects\obj_JumpScare</object>
     <object>objects\obj_Floor</object>
     <object>objects\obj_64960</object>
     <object>objects\obj_Obstacle</object>
@@ -65,22 +65,38 @@
       <object>objects\obj_sm</object>
       <object>objects\obj_new_game</object>
       <object>objects\obj_credits</object>
-      <object>objects\obj_exit</object>
+      <object>objects\obj_exit_game</object>
       <object>objects\obj_rm_chose</object>
       <object>objects\obj_credits_name</object>
     </objects>
     <object>objects\obj_mouse</object>
-    <object>objects\obj_room_restart</object>
-    <object>objects\obj_Snap</object>
-    <object>objects\obj_Start</object>
     <object>objects\obj_pumpkin</object>
+    <objects name="interact">
+      <object>objects\obj_stairway</object>
+      <object>objects\obj_JumpScare</object>
+      <object>objects\obj_RunAwayScare</object>
+    </objects>
+    <object>objects\obj_exit_level</object>
+    <objects name="setup">
+      <object>objects\obj_Start</object>
+      <object>objects\obj_Snap</object>
+      <object>objects\obj_room_restart</object>
+    </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_st_menu</room>
-    <room>rooms\rm_Test</room>
-    <room>rooms\rm_looks</room>
-    <room>rooms\rm_chose</room>
-    <room>rooms\rm_credits</room>
+    <rooms name="menu">
+      <room>rooms\rm_st_menu</room>
+      <room>rooms\rm_chose</room>
+      <room>rooms\rm_credits</room>
+    </rooms>
+    <rooms name="Test">
+      <room>rooms\rm_Test</room>
+      <room>rooms\rm_looks</room>
+    </rooms>
+    <rooms name="levels">
+      <room>rooms\rm_lv_blank</room>
+      <room>rooms\rm_lv_1_1</room>
+    </rooms>
   </rooms>
   <constants number="2">
     <constant name="MOVING_LEFT">-1</constant>
