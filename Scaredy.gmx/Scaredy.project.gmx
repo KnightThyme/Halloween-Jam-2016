@@ -25,12 +25,18 @@
       <sprite>sprites\spr_credits</sprite>
     </sprites>
     <sprite>sprites\spr_spooked_to_death</sprite>
+    <sprite>sprites\spr_killed_death</sprite>
     <sprite>sprites\spr_Snap</sprite>
     <sprite>sprites\spr_Start</sprite>
     <sprite>sprites\spr_rm_chose</sprite>
     <sprite>sprites\spr_punkin</sprite>
     <sprite>sprites\spr_stairway</sprite>
     <sprite>sprites\spr_exit_level</sprite>
+    <sprites name="hazard">
+      <sprite>sprites\spr_spikes</sprite>
+      <sprite>sprites\spr_bear_trap</sprite>
+    </sprites>
+    <sprite>sprites\spr_home</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="tiles">
@@ -49,6 +55,7 @@
     <script>scripts\scr_Obstacle_Placement.gml</script>
     <script>scripts\scr_Obstacle_Wait.gml</script>
     <script>scripts\scr_Scaredy_Pause.gml</script>
+    <script>scripts\scr_stairway.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_level_chose</font>
@@ -60,6 +67,7 @@
     <object>objects\obj_Floor</object>
     <object>objects\obj_64960</object>
     <object>objects\obj_Obstacle</object>
+    <object>objects\obj_Hazard</object>
     <object>objects\obj_Purchase</object>
     <objects name="menu">
       <object>objects\obj_sm</object>
@@ -71,16 +79,24 @@
     </objects>
     <object>objects\obj_mouse</object>
     <object>objects\obj_pumpkin</object>
-    <objects name="interact">
-      <object>objects\obj_stairway</object>
+    <objects name="obstacle">
+      <object>objects\obj_sw_A</object>
+      <object>objects\obj_sw_B</object>
+      <object>objects\obj_sw_C</object>
+      <object>objects\obj_sw_D</object>
       <object>objects\obj_JumpScare</object>
       <object>objects\obj_RunAwayScare</object>
     </objects>
     <object>objects\obj_exit_level</object>
     <objects name="setup">
       <object>objects\obj_Start</object>
+      <object>objects\obj_home</object>
       <object>objects\obj_Snap</object>
       <object>objects\obj_room_restart</object>
+    </objects>
+    <objects name="hazard">
+      <object>objects\obj_spikes</object>
+      <object>objects\obj_bear_trap</object>
     </objects>
   </objects>
   <rooms name="rooms">
