@@ -53,7 +53,7 @@ var_pause = 0;</code>
   </views>
   <instances>
     <instance objName="obj_sm" x="224" y="0" name="inst_0F3A6800" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_exit" x="288" y="544" name="inst_FD664999" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_exit_game" x="288" y="544" name="inst_FD664999" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_new_game" x="320" y="288" name="inst_026078C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_mouse" x="0" y="0" name="inst_A9845930" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_credits" x="896" y="704" name="inst_F9FF7AA4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
