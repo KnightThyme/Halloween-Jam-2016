@@ -151,6 +151,11 @@ if(fright &gt; 100){
             <kind>1</kind>
             <string>///Draw Fright Meter
 draw_healthbar(32,704, 160, 736, fright, c_black, c_green, c_red, 0, true, true);
+draw_set_font(fnt_other);
+draw_set_colour(c_white);
+draw_set_valign(fa_middle);
+draw_set_halign(fa_center);
+draw_text( 96, 720, "FEAR-O-METER");
 </string>
           </argument>
         </arguments>

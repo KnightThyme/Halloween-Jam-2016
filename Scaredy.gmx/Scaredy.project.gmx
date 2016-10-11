@@ -41,7 +41,7 @@
   <backgrounds name="background">
     <backgrounds name="tiles">
       <background>background\ts_blank</background>
-      <background>background\ts_walls</background>
+      <background>background\ts_inside</background>
     </backgrounds>
     <background>background\bg_credits</background>
   </backgrounds>
@@ -56,11 +56,13 @@
     <script>scripts\scr_Obstacle_Wait.gml</script>
     <script>scripts\scr_Scaredy_Pause.gml</script>
     <script>scripts\scr_stairway.gml</script>
+    <script>scripts\scr_global.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_level_chose</font>
     <font>fonts\fnt_title</font>
     <font>fonts\fnt_text</font>
+    <font>fonts\fnt_other</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_Scared</object>
@@ -98,6 +100,7 @@
       <object>objects\obj_spikes</object>
       <object>objects\obj_bear_trap</object>
     </objects>
+    <object>objects\obj_room_chose</object>
   </objects>
   <rooms name="rooms">
     <rooms name="menu">
@@ -107,10 +110,10 @@
     </rooms>
     <rooms name="Test">
       <room>rooms\rm_Test</room>
-      <room>rooms\rm_looks</room>
     </rooms>
     <rooms name="levels">
       <room>rooms\rm_lv_blank</room>
+      <room>rooms\room7</room>
       <room>rooms\rm_lv_1_1</room>
     </rooms>
   </rooms>
