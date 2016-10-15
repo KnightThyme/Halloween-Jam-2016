@@ -17,6 +17,7 @@
     <sprite>sprites\spr_Purchase</sprite>
     <sprites name="scarry objects">
       <sprite>sprites\spr_jake_in_box</sprite>
+      <sprite>sprites\spr_skall</sprite>
     </sprites>
     <sprites name="menu">
       <sprite>sprites\spr_title</sprite>
@@ -37,11 +38,13 @@
       <sprite>sprites\spr_bear_trap</sprite>
     </sprites>
     <sprite>sprites\spr_home</sprite>
+    <sprite>sprites\spr_locked</sprite>
+    <sprite>sprites\spr_key</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="tiles">
       <background>background\ts_blank</background>
-      <background>background\ts_walls</background>
+      <background>background\ts_inside</background>
     </backgrounds>
     <background>background\bg_credits</background>
   </backgrounds>
@@ -49,25 +52,25 @@
   <scripts name="scripts">
     <script>scripts\scr_Scaredy_Walk.gml</script>
     <script>scripts\scr_Scaredy_Running.gml</script>
-    <script>scripts\scr_Scaredy_Death.gml</script>
-    <script>scripts\scr_Detect_Scares.gml</script>
     <script>scripts\scr_Scaredy_Jumping.gml</script>
+    <script>scripts\scr_Scaredy_Death.gml</script>
+    <script>scripts\scr_Scaredy_Pause.gml</script>
+    <script>scripts\scr_Detect_Scares.gml</script>
     <script>scripts\scr_Obstacle_Placement.gml</script>
     <script>scripts\scr_Obstacle_Wait.gml</script>
-    <script>scripts\scr_Scaredy_Pause.gml</script>
-    <script>scripts\scr_stairway.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_level_chose</font>
     <font>fonts\fnt_title</font>
     <font>fonts\fnt_text</font>
+    <font>fonts\fnt_other</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_Scared</object>
     <object>objects\obj_Floor</object>
     <object>objects\obj_64960</object>
     <object>objects\obj_Obstacle</object>
-    <object>objects\obj_Hazard</object>
+    <object>objects\obj_insta_death</object>
     <object>objects\obj_Purchase</object>
     <objects name="menu">
       <object>objects\obj_sm</object>
@@ -80,6 +83,8 @@
     <object>objects\obj_mouse</object>
     <object>objects\obj_pumpkin</object>
     <objects name="obstacle">
+      <object>objects\obj_locked_A</object>
+      <object>objects\obj_locked_B</object>
       <object>objects\obj_sw_A</object>
       <object>objects\obj_sw_B</object>
       <object>objects\obj_sw_C</object>
@@ -92,12 +97,16 @@
       <object>objects\obj_Start</object>
       <object>objects\obj_home</object>
       <object>objects\obj_Snap</object>
+      <object>objects\obj_taken</object>
       <object>objects\obj_room_restart</object>
     </objects>
     <objects name="hazard">
       <object>objects\obj_spikes</object>
       <object>objects\obj_bear_trap</object>
     </objects>
+    <object>objects\obj_room_chose</object>
+    <object>objects\obj_text</object>
+    <object>objects\obj_key</object>
   </objects>
   <rooms name="rooms">
     <rooms name="menu">
@@ -107,11 +116,15 @@
     </rooms>
     <rooms name="Test">
       <room>rooms\rm_Test</room>
-      <room>rooms\rm_looks</room>
     </rooms>
     <rooms name="levels">
       <room>rooms\rm_lv_blank</room>
       <room>rooms\rm_lv_1_1</room>
+      <room>rooms\rm_lv_1_2</room>
+      <room>rooms\rm_lv_1_3</room>
+      <room>rooms\rm_lv_1_4</room>
+      <room>rooms\rm_lv_2_1</room>
+      <room>rooms\rm_lv_later</room>
     </rooms>
   </rooms>
   <constants number="2">

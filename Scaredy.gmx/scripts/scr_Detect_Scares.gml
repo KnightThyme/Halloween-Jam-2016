@@ -12,7 +12,7 @@ if(obstacle != noone and obstacle.object_index != obj_Floor){
                     facing = MOVING_LEFT;
                 }
                 is_afraid = true;
-                fright += 10;
+                fright += 20;
                 obstacle = noone;
                 state = scr_Scaredy_Running;
             break;
@@ -21,6 +21,34 @@ if(obstacle != noone and obstacle.object_index != obj_Floor){
                 fright += 10;
                 obstacle = noone;
                 state = scr_Scaredy_Jumping;
+            break;
+            default:
+            
+            break;
+        }
+    }
+}
+//if hazard
+if(place_meeting(x + move_speed * facing, y, obj_insta_death)){
+    obstacle = instance_place(x + move_speed * facing, y, obj_insta_death);
+}
+if(obstacle != noone and obstacle.object_index != obj_Floor){
+    if(obstacle.active == true){
+        switch(obstacle.object_index){
+            case obj_spikes:
+                if(facing == MOVING_LEFT){
+                    facing = MOVING_RIGHT;
+                }else if(facing == MOVING_RIGHT){
+                    facing = MOVING_LEFT;
+                }
+                is_afraid = true;
+                fright += 100;
+                obstacle = noone;
+            break;
+            case obj_bear_trap:
+                alarm[0] = 15;
+                fright += 100;
+                obstacle = noone;
             break;
             default:
             
