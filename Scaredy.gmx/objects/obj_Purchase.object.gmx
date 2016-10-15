@@ -50,13 +50,16 @@ canPurchase = true;
           <argument>
             <kind>1</kind>
             <string>if(canPurchase){
-    if(place_meeting(x, y, obj_Obstacle)){
-        with(instance_place(x, y, obj_Obstacle)) instance_destroy();
+    if (var_obj_count &lt; var_obj_limit){
+        if(place_meeting(x, y, obj_Obstacle)){
+            with(instance_place(x, y, obj_Obstacle)) instance_destroy();
+        }
+        obstacle = instance_create(mouse_x, mouse_y, type);
+        obstacle.state = scr_Obstacle_Placement;
+        obstacle.alarm[0] = 1;
+        obstacle.active = false;
+        var_obj_count = var_obj_count + 1;
     }
-    obstacle = instance_create(mouse_x, mouse_y, type);
-    obstacle.state = scr_Obstacle_Placement;
-    obstacle.alarm[0] = 1;
-    obstacle.active = false;
 }
 </string>
           </argument>

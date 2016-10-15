@@ -17,6 +17,7 @@
     <sprite>sprites\spr_Purchase</sprite>
     <sprites name="scarry objects">
       <sprite>sprites\spr_jake_in_box</sprite>
+      <sprite>sprites\spr_skall</sprite>
     </sprites>
     <sprites name="menu">
       <sprite>sprites\spr_title</sprite>
@@ -51,13 +52,12 @@
   <scripts name="scripts">
     <script>scripts\scr_Scaredy_Walk.gml</script>
     <script>scripts\scr_Scaredy_Running.gml</script>
-    <script>scripts\scr_Scaredy_Death.gml</script>
-    <script>scripts\scr_Detect_Scares.gml</script>
     <script>scripts\scr_Scaredy_Jumping.gml</script>
+    <script>scripts\scr_Scaredy_Death.gml</script>
+    <script>scripts\scr_Scaredy_Pause.gml</script>
+    <script>scripts\scr_Detect_Scares.gml</script>
     <script>scripts\scr_Obstacle_Placement.gml</script>
     <script>scripts\scr_Obstacle_Wait.gml</script>
-    <script>scripts\scr_Scaredy_Pause.gml</script>
-    <script>scripts\scr_global.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_level_chose</font>
@@ -71,7 +71,6 @@
     <object>objects\obj_64960</object>
     <object>objects\obj_Obstacle</object>
     <object>objects\obj_insta_death</object>
-    <object>objects\obj_Hazard</object>
     <object>objects\obj_Purchase</object>
     <objects name="menu">
       <object>objects\obj_sm</object>
@@ -84,9 +83,9 @@
     <object>objects\obj_mouse</object>
     <object>objects\obj_pumpkin</object>
     <objects name="obstacle">
-      <object>objects\obj_sw_A</object>
       <object>objects\obj_locked_A</object>
       <object>objects\obj_locked_B</object>
+      <object>objects\obj_sw_A</object>
       <object>objects\obj_sw_B</object>
       <object>objects\obj_sw_C</object>
       <object>objects\obj_sw_D</object>
@@ -98,6 +97,7 @@
       <object>objects\obj_Start</object>
       <object>objects\obj_home</object>
       <object>objects\obj_Snap</object>
+      <object>objects\obj_taken</object>
       <object>objects\obj_room_restart</object>
     </objects>
     <objects name="hazard">
@@ -121,8 +121,10 @@
       <room>rooms\rm_lv_blank</room>
       <room>rooms\rm_lv_1_1</room>
       <room>rooms\rm_lv_1_2</room>
+      <room>rooms\rm_lv_1_3</room>
+      <room>rooms\rm_lv_1_4</room>
+      <room>rooms\rm_lv_2_1</room>
       <room>rooms\rm_lv_later</room>
-      <room>rooms\rm_lv_key</room>
     </rooms>
   </rooms>
   <constants number="2">

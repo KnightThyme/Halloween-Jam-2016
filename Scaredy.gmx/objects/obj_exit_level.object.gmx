@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>room_goto_next();
+var_obj_count = 0;
 </string>
           </argument>
         </arguments>

@@ -11,7 +11,17 @@
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
   <code>globalvar var_pause;
-var_pause = 0;</code>
+var_pause = 0;
+globalvar var_level;
+var_level = 0;
+globalvar var_rm_text;
+var_rm_text = 0;
+globalvar var_key;
+var_key = 0;
+globalvar var_obj_limit;
+var_obj_limit = 0;
+globalvar var_obj_count;
+var_obj_count = 0;</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>

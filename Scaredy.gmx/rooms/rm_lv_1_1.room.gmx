@@ -10,7 +10,7 @@
   <persistent>0</persistent>
   <colour>2105376</colour>
   <showcolour>-1</showcolour>
-  <code></code>
+  <code>var_obj_limit = 2;</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>

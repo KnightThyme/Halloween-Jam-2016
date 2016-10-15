@@ -2,6 +2,11 @@
 
 if(alarm[0] > 0){
     y -= 5;
+    if (facing = MOVING_LEFT){
+        x -= 0.7;
+    }else{
+        x += 0.7;
+    }
 }
 
 if(alarm[1] > 0){
