@@ -17,3 +17,7 @@ if(mouse_check_button_pressed(mb_left) and alarm[0] <= 0 and canPlace){
     state = scr_Obstacle_Wait;
     active = true;
 }
+if(mouse_check_button(mb_right)){
+    instance_destroy();
+    var_obj_count -= 1
+}

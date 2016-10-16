@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>type = obj_RunAwayScare;
+            <string>type = spr_skall;
+object = obj_RunAwayScare;
 canPurchase = true;
 </string>
           </argument>
@@ -50,15 +51,16 @@ canPurchase = true;
           <argument>
             <kind>1</kind>
             <string>if(canPurchase){
-    if (var_obj_count &lt; var_obj_limit){
-        if(place_meeting(x, y, obj_Obstacle)){
+    if(place_meeting(x, y, obj_Obstacle)){
             with(instance_place(x, y, obj_Obstacle)) instance_destroy();
-        }
-        obstacle = instance_create(mouse_x, mouse_y, type);
+            var_obj_count -= 1;
+    }
+    if (var_obj_count &lt; var_obj_limit){
+        obstacle = instance_create(mouse_x, mouse_y, object);
         obstacle.state = scr_Obstacle_Placement;
         obstacle.alarm[0] = 1;
         obstacle.active = false;
-        var_obj_count = var_obj_count + 1;
+        var_obj_count += 1;
     }
 }
 </string>
@@ -85,7 +87,7 @@ canPurchase = true;
             <kind>1</kind>
             <string>///Draw self and the type of purchase
 draw_self();
-draw_sprite(type.sprite_index, 0, x, y);
+draw_sprite(type, 0, x, y);
 </string>
           </argument>
         </arguments>
