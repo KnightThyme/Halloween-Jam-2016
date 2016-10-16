@@ -22,6 +22,15 @@ if(obstacle != noone and obstacle.object_index != obj_Floor){
                 obstacle = noone;
                 state = scr_Scaredy_Jumping;
             break;
+            case obj_lock_box:
+                if(facing == MOVING_LEFT){
+                    facing = MOVING_RIGHT;
+                }else if(facing == MOVING_RIGHT){
+                    facing = MOVING_LEFT;
+                }
+                obstacle = noone;
+                state = scr_Scaredy_Walk;
+            break;
             default:
             
             break;
