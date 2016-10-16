@@ -157,6 +157,7 @@
       <room>rooms\rm_lv_4_2</room>
       <room>rooms\rm_lv_4_3</room>
       <room>rooms\rm_lv_4_4</room>
+      <room>rooms\rm_lv_later</room>
     </rooms>
   </rooms>
   <constants number="2">
