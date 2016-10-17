@@ -56,4 +56,3 @@ if(obstacle != noone and obstacle.object_index != obj_Floor){
         }
     }
 }
-

@@ -56,10 +56,18 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\scr_Scaredy_Pause.gml</script>
     <script>scripts\scr_Detect_Scares.gml</script>
+    <script>scripts\scr_global.gml</script>
+    <script>scripts\scr_globalvar.gml</script>
+    <script>scripts\scr_main_menu.gml</script>
     <script>scripts\scr_Obstacle_Placement.gml</script>
     <script>scripts\scr_Obstacle_Wait.gml</script>
+    <script>scripts\scr_Scaredy_Death.gml</script>
+    <script>scripts\scr_Scaredy_Jumping.gml</script>
+    <script>scripts\scr_Scaredy_Pause.gml</script>
+    <script>scripts\scr_Scaredy_Running.gml</script>
+    <script>scripts\scr_Scaredy_Walk.gml</script>
+    <script>scripts\scr_stairway.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_level_chose</font>
