@@ -57,8 +57,6 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_Detect_Scares.gml</script>
-    <script>scripts\scr_global.gml</script>
-    <script>scripts\scr_globalvar.gml</script>
     <script>scripts\scr_main_menu.gml</script>
     <script>scripts\scr_Obstacle_Placement.gml</script>
     <script>scripts\scr_Obstacle_Wait.gml</script>
@@ -67,7 +65,6 @@
     <script>scripts\scr_Scaredy_Pause.gml</script>
     <script>scripts\scr_Scaredy_Running.gml</script>
     <script>scripts\scr_Scaredy_Walk.gml</script>
-    <script>scripts\scr_stairway.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_level_chose</font>
@@ -130,22 +127,30 @@
     </rooms>
     <rooms name="levels">
       <room>rooms\rm_lv_blank</room>
-      <room>rooms\rm_lv_3_2</room>
-      <room>rooms\rm_lv_3_3</room>
-      <room>rooms\rm_lv_3_4</room>
-      <room>rooms\rm_lv_4_1</room>
-      <room>rooms\rm_lv_4_2</room>
-      <room>rooms\rm_lv_4_3</room>
-      <room>rooms\rm_lv_4_4</room>
-      <room>rooms\rm_lv_1_1</room>
-      <room>rooms\rm_lv_1_2</room>
-      <room>rooms\rm_lv_1_3</room>
-      <room>rooms\rm_lv_1_4</room>
-      <room>rooms\rm_lv_2_1</room>
-      <room>rooms\rm_lv_2_2</room>
-      <room>rooms\rm_lv_2_3</room>
-      <room>rooms\rm_lv_2_4</room>
-      <room>rooms\rm_lv_3_1</room>
+      <rooms name="lv 1">
+        <room>rooms\rm_lv_1_1</room>
+        <room>rooms\rm_lv_1_2</room>
+        <room>rooms\rm_lv_1_3</room>
+        <room>rooms\rm_lv_1_4</room>
+      </rooms>
+      <rooms name="lv 2">
+        <room>rooms\rm_lv_2_1</room>
+        <room>rooms\rm_lv_2_2</room>
+        <room>rooms\rm_lv_2_3</room>
+        <room>rooms\rm_lv_2_4</room>
+      </rooms>
+      <rooms name="lv3">
+        <room>rooms\rm_lv_3_1</room>
+        <room>rooms\rm_lv_3_2</room>
+        <room>rooms\rm_lv_3_3</room>
+        <room>rooms\rm_lv_3_4</room>
+      </rooms>
+      <rooms name="lv 4">
+        <room>rooms\rm_lv_4_1</room>
+        <room>rooms\rm_lv_4_2</room>
+        <room>rooms\rm_lv_4_3</room>
+        <room>rooms\rm_lv_4_4</room>
+      </rooms>
     </rooms>
   </rooms>
   <constants number="2">
