@@ -52,7 +52,7 @@
   </views>
   <instances>
     <instance objName="obj_Purchase" x="256" y="736" name="inst_DD826467" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Purchase" x="352" y="736" name="inst_9359A0B2" locked="0" code="type = obj_JumpScare;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Purchase" x="352" y="736" name="inst_9359A0B2" locked="0" code="type = spr_jake_in_box;&#xA;object = obj_JumpScare;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="512" y="400" name="inst_8E459D34" locked="0" code="" scaleX="28" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="512" y="240" name="inst_582C1A74" locked="0" code="" scaleX="28" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="48" y="320" name="inst_FB0A6E9D" locked="0" code="" scaleX="1" scaleY="6" colour="4294967295" rotation="0"/>

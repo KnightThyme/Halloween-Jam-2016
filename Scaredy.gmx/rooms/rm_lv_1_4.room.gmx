@@ -53,7 +53,7 @@ var_obj_limit = 4;</code>
   </views>
   <instances>
     <instance objName="obj_Purchase" x="256" y="736" name="inst_DD826467" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Purchase" x="352" y="736" name="inst_9359A0B2" locked="0" code="type = obj_JumpScare;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Purchase" x="352" y="736" name="inst_9359A0B2" locked="0" code="type = spr_jake_in_box;&#xA;object = obj_JumpScare;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Start" x="928" y="736" name="inst_B88C3611" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_home" x="832" y="736" name="inst_2104F410" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="176" y="288" name="inst_E666AD81" locked="0" code="" scaleX="1" scaleY="11" colour="4294967295" rotation="0"/>
@@ -95,8 +95,6 @@ var_obj_limit = 4;</code>
     <instance objName="obj_Snap" x="688" y="256" name="inst_FC97A9C7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Snap" x="368" y="256" name="inst_A4B63D77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Snap" x="560" y="256" name="inst_1A34385D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_RunAwayScare" x="-64" y="160" name="inst_29DC74FA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_JumpScare" x="-64" y="192" name="inst_F8BA7EEE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Snap" x="528" y="416" name="inst_EFB757D3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="432" y="368" name="inst_1D539CC7" locked="0" code="" scaleX="1" scaleY="5" colour="4294967295" rotation="0"/>
     <instance objName="obj_sw_A" x="592" y="256" name="inst_D7A00CD4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

@@ -105,7 +105,6 @@
       <object>objects\obj_Start</object>
       <object>objects\obj_home</object>
       <object>objects\obj_Snap</object>
-      <object>objects\obj_taken</object>
       <object>objects\obj_room_restart</object>
     </objects>
     <objects name="hazard">

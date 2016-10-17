@@ -52,7 +52,7 @@
   </views>
   <instances>
     <instance objName="obj_Purchase" x="256" y="736" name="inst_DD826467" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Purchase" x="352" y="736" name="inst_9359A0B2" locked="0" code="type = obj_JumpScare;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Purchase" x="352" y="736" name="inst_9359A0B2" locked="0" code="type = spr_jake_in_box;&#xA;object = obj_JumpScare;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Start" x="928" y="736" name="inst_B88C3611" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_home" x="832" y="736" name="inst_2104F410" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="176" y="288" name="inst_E666AD81" locked="0" code="" scaleX="1" scaleY="11" colour="4294967295" rotation="0"/>
@@ -97,8 +97,6 @@
     <instance objName="obj_Snap" x="560" y="256" name="inst_EC298BED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Snap" x="528" y="416" name="inst_399F972E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Snap" x="656" y="256" name="inst_E11279B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_RunAwayScare" x="-80" y="192" name="inst_F1FB1D31" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_JumpScare" x="-80" y="224" name="inst_05FB8F33" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="224" y="288" name="inst_C4E69583" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="592" y="368" name="inst_44F91BBA" locked="0" code="" scaleX="1" scaleY="6" colour="4294967295" rotation="0"/>
     <instance objName="obj_Snap" x="208" y="256" name="inst_9758BC3C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
