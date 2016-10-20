@@ -27,13 +27,13 @@
             <kind>1</kind>
             <string>if (obj_Scared.facing == MOVING_RIGHT)
 {
-    obj_Scared.x = obj_sw_D.x+40;
-    obj_Scared.y = obj_sw_D.y;
+    obj_Scared.x = obj_sw_C.x+40;
+    obj_Scared.y = obj_sw_C.y;
 }
 if (obj_Scared.facing == MOVING_LEFT)
 {
-    obj_Scared.x = obj_sw_D.x-40;
-    obj_Scared.y = obj_sw_D.y;
+    obj_Scared.x = obj_sw_C.x-40;
+    obj_Scared.y = obj_sw_C.y;
 }
 </string>
           </argument>
