@@ -40,6 +40,12 @@
     <sprite>sprites\spr_home</sprite>
     <sprite>sprites\spr_locked</sprite>
     <sprite>sprites\spr_key</sprite>
+    <sprite>sprites\spr_lock_box</sprite>
+    <sprite>sprites\spr_snap_2</sprite>
+    <sprite>sprites\spr_window_1</sprite>
+    <sprite>sprites\spr_window_2</sprite>
+    <sprite>sprites\spr_window_3</sprite>
+    <sprite>sprites\spr_window_4</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="tiles">
@@ -50,14 +56,15 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\scr_Scaredy_Walk.gml</script>
-    <script>scripts\scr_Scaredy_Running.gml</script>
-    <script>scripts\scr_Scaredy_Jumping.gml</script>
-    <script>scripts\scr_Scaredy_Death.gml</script>
-    <script>scripts\scr_Scaredy_Pause.gml</script>
     <script>scripts\scr_Detect_Scares.gml</script>
+    <script>scripts\scr_main_menu.gml</script>
     <script>scripts\scr_Obstacle_Placement.gml</script>
     <script>scripts\scr_Obstacle_Wait.gml</script>
+    <script>scripts\scr_Scaredy_Death.gml</script>
+    <script>scripts\scr_Scaredy_Jumping.gml</script>
+    <script>scripts\scr_Scaredy_Pause.gml</script>
+    <script>scripts\scr_Scaredy_Running.gml</script>
+    <script>scripts\scr_Scaredy_Walk.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_level_chose</font>
@@ -89,6 +96,7 @@
       <object>objects\obj_sw_B</object>
       <object>objects\obj_sw_C</object>
       <object>objects\obj_sw_D</object>
+      <object>objects\obj_lock_box</object>
       <object>objects\obj_JumpScare</object>
       <object>objects\obj_RunAwayScare</object>
     </objects>
@@ -97,7 +105,6 @@
       <object>objects\obj_Start</object>
       <object>objects\obj_home</object>
       <object>objects\obj_Snap</object>
-      <object>objects\obj_taken</object>
       <object>objects\obj_room_restart</object>
     </objects>
     <objects name="hazard">
@@ -119,12 +126,30 @@
     </rooms>
     <rooms name="levels">
       <room>rooms\rm_lv_blank</room>
-      <room>rooms\rm_lv_1_1</room>
-      <room>rooms\rm_lv_1_2</room>
-      <room>rooms\rm_lv_1_3</room>
-      <room>rooms\rm_lv_1_4</room>
-      <room>rooms\rm_lv_2_1</room>
-      <room>rooms\rm_lv_later</room>
+      <rooms name="lv 1">
+        <room>rooms\rm_lv_1_1</room>
+        <room>rooms\rm_lv_1_2</room>
+        <room>rooms\rm_lv_1_3</room>
+        <room>rooms\rm_lv_1_4</room>
+      </rooms>
+      <rooms name="lv 2">
+        <room>rooms\rm_lv_2_1</room>
+        <room>rooms\rm_lv_2_2</room>
+        <room>rooms\rm_lv_2_3</room>
+        <room>rooms\rm_lv_2_4</room>
+      </rooms>
+      <rooms name="lv3">
+        <room>rooms\rm_lv_3_1</room>
+        <room>rooms\rm_lv_3_2</room>
+        <room>rooms\rm_lv_3_3</room>
+        <room>rooms\rm_lv_3_4</room>
+      </rooms>
+      <rooms name="lv 4">
+        <room>rooms\rm_lv_4_1</room>
+        <room>rooms\rm_lv_4_2</room>
+        <room>rooms\rm_lv_4_3</room>
+        <room>rooms\rm_lv_4_4</room>
+      </rooms>
     </rooms>
   </rooms>
   <constants number="2">
