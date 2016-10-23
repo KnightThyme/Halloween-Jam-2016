@@ -59,6 +59,10 @@ if(obstacle != noone and obstacle.object_index != obj_Floor){
                 fright += 100;
                 obstacle = noone;
             break;
+            case obj_falling:
+                fright += 100;
+                obstacle = noone;
+            break;
             default:
             
             break;

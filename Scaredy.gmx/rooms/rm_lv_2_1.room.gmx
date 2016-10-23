@@ -102,15 +102,15 @@
     <instance objName="obj_Snap" x="912" y="496" name="inst_CC004F57" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Snap" x="880" y="496" name="inst_B14078E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Snap" x="816" y="496" name="inst_A062CD97" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Snap" x="784" y="496" name="inst_F3622314" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Snap" x="752" y="496" name="inst_F7BA29E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Snap" x="720" y="496" name="inst_2E03C497" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Snap" x="688" y="496" name="inst_D001CD6B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Snap" x="656" y="496" name="inst_80EDAFE3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Snap" x="624" y="496" name="inst_7B9E8A25" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Snap" x="592" y="496" name="inst_AB5D1EE6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Scared" x="80" y="176" name="inst_A08E25DD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Snap" x="848" y="496" name="inst_F24EAF5C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bear_trap" x="768" y="480" name="inst_E3FF9B08" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Snap" x="592" y="496" name="inst_776AB21A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Snap" x="624" y="496" name="inst_533E80AD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="ts_inside" x="64" y="64" w="64" h="128" xo="224" yo="0" id="10001667" name="inst_4CF9A726" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

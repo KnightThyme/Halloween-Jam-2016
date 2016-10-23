@@ -35,6 +35,7 @@
     <sprite>sprites\spr_exit_level</sprite>
     <sprites name="hazard">
       <sprite>sprites\spr_spikes</sprite>
+      <sprite>sprites\spr_falling</sprite>
       <sprite>sprites\spr_bear_trap</sprite>
     </sprites>
     <sprite>sprites\spr_home</sprite>
@@ -51,6 +52,7 @@
     <backgrounds name="tiles">
       <background>background\ts_blank</background>
       <background>background\ts_inside</background>
+      <background>background\ts_tutorial</background>
     </backgrounds>
     <background>background\bg_credits</background>
   </backgrounds>
@@ -79,6 +81,9 @@
     <object>objects\obj_Obstacle</object>
     <object>objects\obj_insta_death</object>
     <object>objects\obj_Purchase</object>
+    <object>objects\obj_mouse</object>
+    <object>objects\obj_exit_level</object>
+    <object>objects\obj_pumpkin</object>
     <objects name="menu">
       <object>objects\obj_sm</object>
       <object>objects\obj_new_game</object>
@@ -87,8 +92,15 @@
       <object>objects\obj_rm_chose</object>
       <object>objects\obj_credits_name</object>
     </objects>
-    <object>objects\obj_mouse</object>
-    <object>objects\obj_pumpkin</object>
+    <objects name="hazard">
+      <object>objects\obj_spikes</object>
+      <object>objects\obj_bear_trap</object>
+      <object>objects\obj_falling</object>
+    </objects>
+    <objects name="obsticals">
+      <object>objects\obj_JumpScare</object>
+      <object>objects\obj_RunAwayScare</object>
+    </objects>
     <objects name="obstacle">
       <object>objects\obj_locked_A</object>
       <object>objects\obj_locked_B</object>
@@ -97,22 +109,16 @@
       <object>objects\obj_sw_C</object>
       <object>objects\obj_sw_D</object>
       <object>objects\obj_lock_box</object>
-      <object>objects\obj_JumpScare</object>
-      <object>objects\obj_RunAwayScare</object>
     </objects>
-    <object>objects\obj_exit_level</object>
     <objects name="setup">
       <object>objects\obj_Start</object>
       <object>objects\obj_home</object>
       <object>objects\obj_Snap</object>
       <object>objects\obj_room_restart</object>
     </objects>
-    <objects name="hazard">
-      <object>objects\obj_spikes</object>
-      <object>objects\obj_bear_trap</object>
-    </objects>
     <object>objects\obj_room_chose</object>
     <object>objects\obj_text</object>
+    <object>objects\obj_tutorial_text</object>
     <object>objects\obj_key</object>
   </objects>
   <rooms name="rooms">
