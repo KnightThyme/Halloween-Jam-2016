@@ -59,9 +59,11 @@ else{
     room_restart();
     var_obj_count = 0;
     var_key = 0;
-    if (obj_lock_box.x &lt; 0)
-    {
-        obj_lock_box.x = obj_lock_box.x + 10000;
+    if(instance_exists(obj_lock_box)){
+        if (obj_lock_box.x &lt; 0)
+        {
+            obj_lock_box.x = obj_lock_box.x + 10000;
+        }
     }
 }
 
