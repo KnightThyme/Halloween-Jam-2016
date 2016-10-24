@@ -97,6 +97,7 @@ draw_text( 112, 400, "Objects can only be placed in green squares. Left click to
     <instance objName="obj_JumpScare" x="176" y="368" name="inst_0FE6F51B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Snap" x="400" y="368" name="inst_C294C903" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tutorial_text" x="16" y="0" name="inst_3F80A190" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_lock_box" x="16" y="-416" name="inst_1CB122D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="ts_inside" x="64" y="256" w="32" h="128" xo="224" yo="128" id="10001054" name="inst_2D0A340D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

@@ -62,6 +62,7 @@ var_rm_text = "Level 2-4";</code>
     <instance objName="obj_Floor" x="480" y="240" name="inst_A7C6FC4D" locked="0" code="" scaleX="16" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="720" y="160" name="inst_C57790CD" locked="0" code="" scaleX="1" scaleY="6" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="80" y="400" name="inst_3D41EA74" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_lock_box" x="0" y="-368" name="inst_64BB82BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

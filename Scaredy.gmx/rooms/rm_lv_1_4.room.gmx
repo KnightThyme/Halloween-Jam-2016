@@ -105,6 +105,7 @@ var_rm_text = "Level 1-4";</code>
     <instance objName="obj_Snap" x="784" y="416" name="inst_E55DAB84" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_key" x="368" y="224" name="inst_4DD51409" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="624" y="208" name="inst_FF1EE941" locked="0" code="" scaleX="1" scaleY="5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_lock_box" x="16" y="-304" name="inst_46C71DD7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="ts_inside" x="192" y="144" w="32" h="128" xo="224" yo="128" id="10001327" name="inst_B46B5474" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

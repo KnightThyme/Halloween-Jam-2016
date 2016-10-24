@@ -179,6 +179,7 @@
     <instance objName="obj_spikes" x="128" y="496" name="inst_950273CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spikes" x="96" y="496" name="inst_C7570A3B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spikes" x="64" y="496" name="inst_0743942B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_lock_box" x="0" y="-208" name="inst_344AE33A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="ts_inside" x="64" y="64" w="32" h="128" xo="256" yo="128" id="10001509" name="inst_18E0DBA0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
