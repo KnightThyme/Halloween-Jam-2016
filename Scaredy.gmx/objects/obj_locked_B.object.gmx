@@ -31,13 +31,11 @@
     {
         obj_Scared.x = (obj_locked_A.x-40);
         obj_Scared.y = obj_locked_A.y;
-        var_key = var_key - 1;
     }
     if (obj_Scared.facing == MOVING_RIGHT)
     {
         obj_Scared.x = (obj_locked_A.x+40);
         obj_Scared.y = obj_locked_A.y;
-        var_key = var_key - 1;
     }
 }
 </string>
