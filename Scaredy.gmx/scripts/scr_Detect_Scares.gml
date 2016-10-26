@@ -44,19 +44,13 @@ if(place_meeting(x + move_speed * facing, y, obj_insta_death)){
 if(obstacle != noone and obstacle.object_index != obj_Floor){
     if(obstacle.active == true){
         switch(obstacle.object_index){
-            case obj_spikes:
-                if(facing == MOVING_LEFT){
-                    facing = MOVING_RIGHT;
-                }else if(facing == MOVING_RIGHT){
-                    facing = MOVING_LEFT;
-                }
-                is_afraid = true;
-                fright += 100;
-                obstacle = noone;
-            break;
             case obj_bear_trap:
                 alarm[0] = 15;
                 fright += 100;
+                obstacle = noone;
+            break;
+            case obj_spikes:
+                fright = 100;
                 obstacle = noone;
             break;
             case obj_falling:

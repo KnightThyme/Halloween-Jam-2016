@@ -101,7 +101,7 @@
       <object>objects\obj_JumpScare</object>
       <object>objects\obj_RunAwayScare</object>
     </objects>
-    <objects name="obstacle">
+    <objects name="doors">
       <object>objects\obj_locked_A</object>
       <object>objects\obj_locked_B</object>
       <object>objects\obj_sw_A</object>
