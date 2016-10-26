@@ -98,6 +98,8 @@ draw_text( 112, 400, "Objects can only be placed in green squares. Left click to
     <instance objName="obj_Snap" x="400" y="368" name="inst_C294C903" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tutorial_text" x="16" y="0" name="inst_3F80A190" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_lock_box" x="16" y="-416" name="inst_1CB122D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_win_2" x="336" y="272" name="inst_B14DD87B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_win_2" x="752" y="272" name="inst_0A5FF4C7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="ts_inside" x="64" y="256" w="32" h="128" xo="224" yo="128" id="10001054" name="inst_2D0A340D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -132,7 +134,7 @@ draw_text( 112, 400, "Objects can only be placed in green squares. Left click to
     <tile bgName="ts_inside" x="160" y="256" w="32" h="64" xo="448" yo="32" id="10001083" name="inst_DBCF0A2F" depth="100001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside" x="864" y="256" w="32" h="64" xo="480" yo="32" id="10001084" name="inst_9BFA2274" depth="100001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside" x="704" y="256" w="32" h="64" xo="480" yo="32" id="10001085" name="inst_0B99574E" depth="100001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="ts_inside" x="512" y="256" w="32" h="64" xo="480" yo="32" id="10001086" name="inst_ABE41590" depth="100001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_inside" x="464" y="256" w="32" h="64" xo="480" yo="32" id="10001086" name="inst_ABE41590" depth="100001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside" x="320" y="256" w="32" h="64" xo="448" yo="32" id="10001087" name="inst_21CEEA26" depth="100001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside" x="224" y="256" w="32" h="64" xo="448" yo="32" id="10001088" name="inst_6FF11510" depth="100001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside" x="96" y="320" w="16" h="16" xo="384" yo="80" id="10001089" name="inst_E1A2229D" depth="100001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -141,6 +143,10 @@ draw_text( 112, 400, "Objects can only be placed in green squares. Left click to
     <tile bgName="ts_inside" x="736" y="320" w="16" h="16" xo="416" yo="80" id="10001092" name="inst_AF7F9D6B" depth="100001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside" x="576" y="256" w="16" h="16" xo="416" yo="80" id="10001093" name="inst_113EFB02" depth="100001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside" x="928" y="320" w="16" h="16" xo="416" yo="80" id="10001094" name="inst_125F1B90" depth="100001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_inside" x="512" y="320" w="32" h="64" xo="0" yo="96" id="10002382" name="inst_20F7E14A" depth="100001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_inside" x="496" y="304" w="16" h="80" xo="48" yo="112" id="10002383" name="inst_95157D8C" depth="100001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_inside" x="512" y="288" w="32" h="32" xo="64" yo="96" id="10002384" name="inst_2F0C6ACC" depth="100001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_inside" x="544" y="304" w="16" h="80" xo="96" yo="112" id="10002385" name="inst_0FFDE4A4" depth="100001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside" x="64" y="256" w="96" h="32" xo="288" yo="0" id="10000845" name="inst_94AB2A78" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside" x="160" y="256" w="96" h="32" xo="288" yo="0" id="10000846" name="inst_7902909C" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside" x="256" y="256" w="96" h="32" xo="288" yo="0" id="10000847" name="inst_8D4173D9" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -152,11 +158,11 @@ draw_text( 112, 400, "Objects can only be placed in green squares. Left click to
     <tile bgName="ts_inside" x="832" y="256" w="96" h="32" xo="288" yo="0" id="10000854" name="inst_A107555F" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside" x="928" y="256" w="32" h="16" xo="352" yo="0" id="10000855" name="inst_B6AAF53F" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside" x="64" y="272" w="32" h="32" xo="320" yo="64" id="10000857" name="inst_A37BFD6A" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="ts_inside" x="480" y="288" w="32" h="32" xo="320" yo="64" id="10000858" name="inst_052E4EF7" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_inside" x="416" y="272" w="32" h="32" xo="320" yo="64" id="10000858" name="inst_052E4EF7" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside" x="880" y="304" w="32" h="32" xo="320" yo="64" id="10000859" name="inst_F0DE8A0B" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside" x="288" y="304" w="32" h="32" xo="320" yo="64" id="10000861" name="inst_36DEF6EE" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside" x="224" y="304" w="32" h="32" xo="320" yo="32" id="10000863" name="inst_056F5193" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="ts_inside" x="416" y="304" w="32" h="32" xo="320" yo="32" id="10000864" name="inst_A92C2D88" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_inside" x="432" y="320" w="32" h="32" xo="320" yo="32" id="10000864" name="inst_A92C2D88" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside" x="624" y="288" w="32" h="32" xo="320" yo="32" id="10000866" name="inst_AEC20D10" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside" x="912" y="272" w="32" h="32" xo="320" yo="32" id="10000867" name="inst_7F656D5F" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside" x="752" y="288" w="32" h="32" xo="320" yo="32" id="10000868" name="inst_54EA3B5F" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

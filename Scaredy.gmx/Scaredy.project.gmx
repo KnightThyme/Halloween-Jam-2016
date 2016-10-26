@@ -116,6 +116,12 @@
       <object>objects\obj_Snap</object>
       <object>objects\obj_room_restart</object>
     </objects>
+    <objects name="windows">
+      <object>objects\obj_win_1</object>
+      <object>objects\obj_win_2</object>
+      <object>objects\obj_win_3</object>
+      <object>objects\obj_win_4</object>
+    </objects>
     <object>objects\obj_room_chose</object>
     <object>objects\obj_text</object>
     <object>objects\obj_tutorial_text</object>

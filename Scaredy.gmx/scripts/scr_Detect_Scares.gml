@@ -50,6 +50,7 @@ if(obstacle != noone and obstacle.object_index != obj_Floor){
                 obstacle = noone;
             break;
             case obj_spikes:
+                alarm[0] = 15;
                 fright += 100;
                 obstacle = noone;
             break;
