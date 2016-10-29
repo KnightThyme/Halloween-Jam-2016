@@ -10,7 +10,7 @@
   <persistent>0</persistent>
   <colour>4227072</colour>
   <showcolour>-1</showcolour>
-  <code>var_obj_limit = 0;
+  <code>var_obj_limit = 8;
 var_rm_text = "Level 4-4";</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
@@ -76,7 +76,6 @@ var_rm_text = "Level 4-4";</code>
     <instance objName="obj_Floor" x="336" y="240" name="inst_8683510E" locked="0" code="" scaleX="15" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sw_A" x="720" y="368" name="inst_996E6DD2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Scared" x="752" y="368" name="inst_229286DD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_sw_A" x="272" y="368" name="inst_2F33A170" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_key" x="176" y="336" name="inst_61D936D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sw_C" x="112" y="368" name="inst_639575B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sw_D" x="912" y="208" name="inst_73CE83FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -118,6 +117,7 @@ var_rm_text = "Level 4-4";</code>
     <instance objName="obj_Snap" x="208" y="528" name="inst_12C1122B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Snap" x="176" y="528" name="inst_8F7E2274" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Snap" x="144" y="528" name="inst_18B2EEC5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sw_B" x="272" y="368" name="inst_784A6CCD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

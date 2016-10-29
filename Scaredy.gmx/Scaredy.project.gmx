@@ -130,7 +130,6 @@
   <rooms name="rooms">
     <rooms name="menu">
       <room>rooms\rm_st_menu</room>
-      <room>rooms\rm_chose</room>
       <room>rooms\rm_credits</room>
     </rooms>
     <rooms name="Test">
@@ -162,6 +161,7 @@
         <room>rooms\rm_lv_4_3</room>
         <room>rooms\rm_lv_4_4</room>
       </rooms>
+      <room>rooms\rm_chose</room>
     </rooms>
   </rooms>
   <constants number="2">

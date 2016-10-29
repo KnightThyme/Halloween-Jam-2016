@@ -10,7 +10,7 @@
   <persistent>0</persistent>
   <colour>16744448</colour>
   <showcolour>-1</showcolour>
-  <code>var_obj_limit = 0;
+  <code>var_obj_limit = 8;
 var_rm_text = "Level 3-4";</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
@@ -145,7 +145,6 @@ var_rm_text = "Level 3-4";</code>
     <instance objName="obj_Floor" x="864" y="208" name="inst_52C36830" locked="0" code="" scaleX="9" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bear_trap" x="368" y="480" name="inst_C033CB90" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bear_trap" x="336" y="480" name="inst_39B84E17" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bear_trap" x="304" y="480" name="inst_2939AB05" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bear_trap" x="944" y="480" name="inst_A4C7FC72" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spikes" x="944" y="384" name="inst_7C11FF12" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Snap" x="640" y="176" name="inst_9F6875FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -165,6 +164,7 @@ var_rm_text = "Level 3-4";</code>
     <instance objName="obj_spikes" x="288" y="224" name="inst_6834F835" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spikes" x="384" y="224" name="inst_6D58EE7D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spikes" x="416" y="224" name="inst_FD622089" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Snap" x="320" y="496" name="inst_1A7234E4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="ts_inside" x="64" y="64" w="32" h="128" xo="256" yo="128" id="10001509" name="inst_18E0DBA0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
