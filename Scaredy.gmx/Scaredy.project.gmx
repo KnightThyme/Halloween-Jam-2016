@@ -101,7 +101,7 @@
       <object>objects\obj_JumpScare</object>
       <object>objects\obj_RunAwayScare</object>
     </objects>
-    <objects name="obstacle">
+    <objects name="doors">
       <object>objects\obj_locked_A</object>
       <object>objects\obj_locked_B</object>
       <object>objects\obj_sw_A</object>
@@ -115,6 +115,12 @@
       <object>objects\obj_home</object>
       <object>objects\obj_Snap</object>
       <object>objects\obj_room_restart</object>
+    </objects>
+    <objects name="windows">
+      <object>objects\obj_win_1</object>
+      <object>objects\obj_win_2</object>
+      <object>objects\obj_win_3</object>
+      <object>objects\obj_win_4</object>
     </objects>
     <object>objects\obj_room_chose</object>
     <object>objects\obj_text</object>

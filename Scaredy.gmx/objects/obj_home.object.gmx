@@ -50,6 +50,7 @@ image_index = 0;
           <argument>
             <kind>1</kind>
             <string>room_goto(rm_chose);
+var_obj_count = 0;
 </string>
           </argument>
         </arguments>
