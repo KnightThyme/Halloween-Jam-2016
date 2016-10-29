@@ -32,6 +32,8 @@
     <sprite>sprites\spr_rm_chose</sprite>
     <sprite>sprites\spr_punkin</sprite>
     <sprite>sprites\spr_stairway</sprite>
+    <sprite>sprites\spr_StairwayBlue</sprite>
+    <sprite>sprites\spr_StairwayGreen</sprite>
     <sprite>sprites\spr_exit_level</sprite>
     <sprites name="hazard">
       <sprite>sprites\spr_spikes</sprite>
