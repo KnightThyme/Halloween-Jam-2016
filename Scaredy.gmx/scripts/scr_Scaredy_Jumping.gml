@@ -1,7 +1,14 @@
 ///scr_Scaredy_Jumping
 
 if(alarm[0] > 0){
-    y -= 5;
+    if(!place_meeting(x, y - 5, obj_Floor)){
+        y -= 5;
+    }
+    else{
+        while(!place_meeting(x, y - 1, obj_Floor)){
+            y -= 1;
+        }
+    }
     if (facing = MOVING_LEFT){
         x -= 0.7;
     }else{
