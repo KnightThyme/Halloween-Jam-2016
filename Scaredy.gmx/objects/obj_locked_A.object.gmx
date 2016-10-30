@@ -85,7 +85,7 @@ depth = obj_Scared.depth + 1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (obj_Start.image_index = 1)
+            <string>/*if (obj_Start.image_index = 1)
 {
     draw_set_color(noone);
     draw_line(x,y,x,y);
