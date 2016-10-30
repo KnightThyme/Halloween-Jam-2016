@@ -15,11 +15,15 @@ if(obstacle != noone and obstacle.object_index != obj_Floor){
                 fright += 20;
                 obstacle = noone;
                 state = scr_Scaredy_Running;
+                audio_stop_sound(snd_screech);
+                audio_play_sound(snd_screech, 0, false);
             break;
             case obj_JumpScare:
                 alarm[0] = 15;
                 fright += 10;
                 obstacle = noone;
+                audio_stop_sound(snd_screech);
+                audio_play_sound(snd_screech, 0, false);
                 state = scr_Scaredy_Jumping;
             break;
             default:
@@ -48,11 +52,13 @@ if(obstacle != noone and obstacle.object_index != obj_Floor){
                 alarm[0] = 15;
                 fright += 100;
                 obstacle = noone;
+                audio_play_sound(snd_bearTrap, 0, false);
             break;
             case obj_spikes:
                 alarm[0] = 15;
                 fright += 100;
                 obstacle = noone;
+                audio_play_sound(snd_spike, 0, false);
             break;
             case obj_falling:
                 fright += 100;
