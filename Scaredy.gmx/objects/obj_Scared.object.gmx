@@ -34,6 +34,7 @@ state = scr_Scaredy_Pause;
 alarm[1] = -1;
 fright = 0;
 obstacle = noone;
+depth = -10;
 </string>
           </argument>
         </arguments>
