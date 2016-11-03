@@ -61,7 +61,7 @@ var_rm_text = "Level 1-3";</code>
     <instance objName="obj_Floor" x="512" y="128" name="inst_07DD704C" locked="0" code="" scaleX="22" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="400" y="448" name="inst_85AD0BBE" locked="0" code="" scaleX="15" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="608" y="288" name="inst_5784AD05" locked="0" code="" scaleX="16" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_exit_level" x="624" y="416" name="inst_3F1710E7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_exit_level" x="624" y="416" name="inst_3F1710E7" locked="0" code="level = 4;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Scared" x="784" y="256" name="inst_4AE5017F" locked="0" code="facing = MOVING_LEFT;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Snap" x="240" y="256" name="inst_9092AB82" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Snap" x="272" y="256" name="inst_D87338D5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

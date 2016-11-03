@@ -127,7 +127,7 @@ var_rm_text = "Level 4-1";</code>
     <instance objName="obj_Scared" x="352" y="240" name="inst_2FAF6BDD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_key" x="320" y="528" name="inst_C5AF601F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sw_B" x="416" y="560" name="inst_36BCBA05" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_exit_level" x="864" y="560" name="inst_DB730F1D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_exit_level" x="864" y="560" name="inst_DB730F1D" locked="0" code="level = 14;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sw_C" x="192" y="240" name="inst_53835AB3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sw_D" x="352" y="400" name="inst_3A7B6FE2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_locked_A" x="128" y="400" name="inst_0812786D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
