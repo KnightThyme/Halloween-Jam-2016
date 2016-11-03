@@ -34,7 +34,7 @@ draw_arrow( 256, 640, 256, 688, 20);
 draw_arrow( 352, 640, 352, 688, 20);
 draw_text( 752, 550, "Left Click START#to start room or#HOME to go back.");
 draw_text( 112, 400, "Objects can only be placed in green squares. Left click#to drop and Right click to remove.");
-draw_text( 32, 160, "If the guy gets to scared then you'll fail. His fear level is#indicated on the Fear-O-Meter.");
+draw_text( 32, 160, "If the cat gets too scared then you'll fail. His fear level is#indicated on the Fear-O-Meter.");
 </string>
           </argument>
         </arguments>

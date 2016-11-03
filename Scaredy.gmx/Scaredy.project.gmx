@@ -24,6 +24,7 @@
     </sprites>
     <sprites name="menu">
       <sprite>sprites\spr_title</sprite>
+      <sprite>sprites\spr_TitleCard</sprite>
       <sprite>sprites\spr_new</sprite>
       <sprite>sprites\spr_exit</sprite>
       <sprite>sprites\spr_credits</sprite>
@@ -33,6 +34,7 @@
     <sprite>sprites\spr_Snap</sprite>
     <sprite>sprites\spr_Start</sprite>
     <sprite>sprites\spr_rm_chose</sprite>
+    <sprite>sprites\spr_rmDeny</sprite>
     <sprite>sprites\spr_punkin</sprite>
     <sprite>sprites\spr_stairway</sprite>
     <sprite>sprites\spr_StairwayBlue</sprite>
@@ -131,6 +133,7 @@
     <object>objects\obj_text</object>
     <object>objects\obj_tutorial_text</object>
     <object>objects\obj_key</object>
+    <object>objects\obj_rmFlag</object>
   </objects>
   <rooms name="rooms">
     <rooms name="menu">

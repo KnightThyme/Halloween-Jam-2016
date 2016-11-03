@@ -36,8 +36,6 @@ if(obstacle != noone and obstacle.object_index != obj_Floor){
                 obstacle = noone;
                 state = scr_Scaredy_Walk;
             break;
-            
-            break;
         }
     }
 }

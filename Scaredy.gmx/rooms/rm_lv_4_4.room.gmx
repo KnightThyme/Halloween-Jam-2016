@@ -79,7 +79,7 @@ var_rm_text = "Level 4-4";</code>
     <instance objName="obj_key" x="176" y="336" name="inst_61D936D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sw_C" x="112" y="368" name="inst_639575B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sw_D" x="912" y="208" name="inst_73CE83FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_exit_level" x="112" y="528" name="inst_7A1E1D11" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_exit_level" x="112" y="528" name="inst_7A1E1D11" locked="0" code="level = 16;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_key" x="464" y="176" name="inst_002CF0BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Snap" x="784" y="368" name="inst_A0E08272" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Snap" x="688" y="368" name="inst_7A1E7C6B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -224,6 +224,7 @@ var_rm_text = "Level 4-4";</code>
     <tile bgName="ts_inside" x="176" y="416" w="80" h="16" xo="288" yo="0" id="10008625" name="inst_0BB078F1" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside" x="256" y="416" w="80" h="16" xo="288" yo="0" id="10008626" name="inst_B52BF4D6" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside" x="336" y="416" w="80" h="16" xo="288" yo="0" id="10008627" name="inst_047F8A4A" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_inside" x="288" y="480" w="32" h="64" xo="0" yo="96" id="10008694" name="inst_C4577CB3" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside" x="416" y="544" w="16" h="16" xo="192" yo="32" id="10006694" name="inst_8D7AF31B" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside" x="544" y="384" w="16" h="16" xo="192" yo="32" id="10006695" name="inst_AA039596" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside" x="800" y="384" w="16" h="16" xo="192" yo="32" id="10006696" name="inst_672E9578" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -480,7 +481,6 @@ var_rm_text = "Level 4-4";</code>
     <tile bgName="ts_inside" x="576" y="240" w="16" h="32" xo="160" yo="80" id="10006973" name="inst_B7FAFB6A" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside" x="400" y="400" w="16" h="32" xo="176" yo="80" id="10006974" name="inst_DC0DBC11" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside" x="624" y="240" w="16" h="32" xo="176" yo="80" id="10006975" name="inst_26AC18EA" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="ts_inside" x="288" y="480" w="32" h="64" xo="0" yo="96" id="10006985" name="inst_57C4F948" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

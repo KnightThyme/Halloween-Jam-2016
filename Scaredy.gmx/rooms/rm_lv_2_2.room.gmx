@@ -119,7 +119,7 @@ var_rm_text = "Level 2-2";</code>
     <instance objName="obj_locked_A" x="80" y="176" name="inst_844351C6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_locked_B" x="464" y="496" name="inst_13968BAB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_lock_box" x="192" y="224" name="inst_771CEBF3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_exit_level" x="80" y="336" name="inst_1E0BEF52" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_exit_level" x="80" y="336" name="inst_1E0BEF52" locked="0" code="level = 7;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sw_A" x="912" y="336" name="inst_FE0E65A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sw_B" x="80" y="496" name="inst_8B522598" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bear_trap" x="160" y="480" name="inst_F9792E8E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
