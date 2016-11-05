@@ -11,7 +11,12 @@
   <colour>4227072</colour>
   <showcolour>-1</showcolour>
   <code>var_obj_limit = 4;
-var_rm_text = "Level 4-1";</code>
+var_rm_text = "Level 4-1";
+if (!audio_is_playing (snd_world1))
+{
+    audio_stop_all();
+    audio_play_sound(snd_world1, 100, true);
+}</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
@@ -444,12 +449,8 @@ var_rm_text = "Level 4-1";</code>
     <tile bgName="ts_inside" x="832" y="416" w="16" h="16" xo="32" yo="0" id="10005874" name="inst_70C43404" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside" x="848" y="416" w="16" h="16" xo="32" yo="0" id="10005875" name="inst_26DA6E20" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside" x="864" y="416" w="16" h="16" xo="32" yo="0" id="10005876" name="inst_8068941C" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="ts_inside" x="656" y="400" w="16" h="32" xo="128" yo="80" id="10005877" name="inst_C16DF6CB" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="ts_inside" x="768" y="400" w="16" h="32" xo="144" yo="80" id="10005878" name="inst_7E1683E3" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside" x="640" y="240" w="16" h="32" xo="144" yo="80" id="10005879" name="inst_71017415" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="ts_inside" x="656" y="432" w="16" h="32" xo="160" yo="80" id="10005881" name="inst_18E452A8" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside" x="640" y="272" w="16" h="32" xo="176" yo="80" id="10005883" name="inst_EF67D652" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="ts_inside" x="768" y="432" w="16" h="32" xo="176" yo="80" id="10005884" name="inst_6D756DC6" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside" x="528" y="240" w="16" h="32" xo="128" yo="80" id="10005885" name="inst_BE863D82" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside" x="240" y="576" w="16" h="16" xo="48" yo="0" id="10005886" name="inst_69B4CE12" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside" x="256" y="576" w="16" h="16" xo="48" yo="0" id="10005887" name="inst_AF5D4E30" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

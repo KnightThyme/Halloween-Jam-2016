@@ -11,7 +11,12 @@
   <colour>4227072</colour>
   <showcolour>-1</showcolour>
   <code>var_obj_limit = 4;
-var_rm_text = "Level 4-2";</code>
+var_rm_text = "Level 4-2";
+if (!audio_is_playing (snd_world1))
+{
+    audio_stop_all();
+    audio_play_sound(snd_world1, 100, true);
+}</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
@@ -549,7 +554,7 @@ var_rm_text = "Level 4-2";</code>
     <tile bgName="ts_inside" x="256" y="416" w="96" h="16" xo="288" yo="0" id="10008336" name="inst_AE481755" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside" x="352" y="416" w="96" h="16" xo="288" yo="0" id="10008337" name="inst_B1286324" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside" x="448" y="416" w="96" h="16" xo="288" yo="0" id="10008338" name="inst_2C8C8C78" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="ts_inside" x="560" y="416" w="96" h="16" xo="288" yo="0" id="10008339" name="inst_1F2529B8" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="ts_inside" x="544" y="416" w="32" h="16" xo="320" yo="0" id="10008695" name="inst_15955B40" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside" x="64" y="80" w="64" h="16" xo="16" yo="80" id="10008394" name="inst_7A239C0D" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside" x="128" y="80" w="64" h="16" xo="16" yo="80" id="10008395" name="inst_BB0A17EA" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="ts_inside" x="192" y="80" w="64" h="16" xo="16" yo="80" id="10008396" name="inst_472DED15" depth="-10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

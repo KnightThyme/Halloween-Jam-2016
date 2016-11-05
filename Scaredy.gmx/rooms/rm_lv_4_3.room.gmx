@@ -11,7 +11,12 @@
   <colour>4227072</colour>
   <showcolour>-1</showcolour>
   <code>var_obj_limit = 2;
-var_rm_text = "Level 4-3";</code>
+var_rm_text = "Level 4-3";
+if (!audio_is_playing (snd_world1))
+{
+    audio_stop_all();
+    audio_play_sound(snd_world1, 100, true);
+}</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
