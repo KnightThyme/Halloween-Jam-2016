@@ -10,6 +10,7 @@
     <sound>sound\snd_screech</sound>
     <sound>sound\snd_bearTrap</sound>
     <sound>sound\snd_spike</sound>
+    <sound>sound\snd_fast_starwars</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_Scaredy</sprite>
